@@ -1,0 +1,104 @@
+#rcard {
+  height: 525px;
+  width: 420px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rdiv {
+  height: 500px;
+  width: 377px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rimg {
+  width: 380px;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.rimg:hover {
+  transform: scale(1.1);
+}
+
+#rp {
+  color: rgba(117, 117, 117, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#ra {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 30px;
+  height: 45px;
+  width: 278px;
+  border: 1px solid rgba(4, 4, 4, 1);
+  background-color: white;
+  color: rgba(16, 16, 16, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h5.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center; /* Центрирует текст по горизонтали */
+  font-size: 18px; /* Настройка размера текста */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 375px) {
+  #rcard {
+    width: 100%; /* Автоматическая подстройка ширины */
+    height: auto; /* Позволяет карточке быть гибкой по высоте */
+    margin-left: 0; /* Убираем отступы для мобильных устройств */
+    flex-direction: column; /* Оставляем элементы в колонке для мобильных устройств */
+  }
+
+  .rdiv {
+    height: auto;
+    width: 100%;
+    justify-content: center; /* Центрируем изображение */
+  }
+
+  .rimg {
+    width: 100%; /* Изображение занимает 100% ширины родителя */
+    height: auto; /* Автоматическая высота для пропорций */
+  }
+
+  h5.card-text {
+    white-space: normal; /* Разрешаем перенос текста на мобильных устройствах */
+    font-size: 16px; /* Уменьшаем размер текста для мобильных устройств */
+  }
+
+  #rp {
+    font-size: 16px; /* Уменьшаем размер текста */
+    margin-left: 10px; /* Уменьшаем отступы */
+  }
+
+  #ra {
+    font-size: 16px;
+    width: 100%; /* Кнопка будет занимать всю ширину контейнера */
+    margin-left: 0;
+    height: auto;
+    padding: 10px 20px;
+    justify-content: center; /* Центрируем текст внутри кнопки */
+  }
+}

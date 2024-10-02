@@ -1,0 +1,98 @@
+/* .choosei:hover {
+  transform: scale(1.1);
+} */
+.choosei {
+  margin-top: 9px;
+  height: 178px;
+  width: 78px;
+  margin-left: 91px;
+}
+.choosed {
+  width: 122px;
+  height: 26px;
+  margin-top: -268px;
+  border-radius: 4px;
+  background-color: #db3333;
+  position: absolute;
+  margin-left: 120px;
+}
+.choosed2 {
+  width: 87px;
+  height: 26px;
+  margin-top: -268px;
+  border-radius: 4px;
+  background-color: rgba(0, 155, 199, 1);
+  position: absolute;
+  margin-left: 10px;
+}
+.choosep {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-style: normal;
+  padding: 4px 8px;
+}
+
+#choosep2 {
+  text-align: left;
+  margin-top: 10px;
+}
+#choosep3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  font-size: 18px;
+  color: #444a51;
+  letter-spacing: 0em;
+}
+.choosediv {
+  height: 278px;
+  width: 278px;
+  padding-top: 52px;
+  background-color: rgba(238, 238, 238, 1);
+}
+/* .chooseicon {
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+} */
+.choosea {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+  height: 41px;
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 277px;
+  gap: 10px;
+  color: rgb(0, 155, 199);
+  border-radius: 4px;
+  border: 1px solid rgb(0, 155, 199);
+  cursor: pointer;
+}
+.sebet {
+  padding-right: 60px;
+}
+
+#harvestsr {
+  margin-left: -90px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+#harvestsc1,
+#harvestsc2,
+#harvestsc3 {
+  margin-left: -40px;
+}
+#choosecard {
+  width: 278px;
+  margin-left: 95px;
+}
